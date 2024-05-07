@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CodePlayer | COMPLETE WEB DEVELOPER COURSE</title>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="top-bar">
+  <h1>CodePlayer</h1>
+  <div id="button-container">
+    <button id="html" class="active">HTML</button>
+    <button id="css">CSS</button>
+    <button id="javascript">JavaScript</button>
+    <button id="output" class="active">Output</button>
+  </div>
+  <!--button-container-->
+</div>
+<!--top-bar-->
+
+<div id="text-container">
+  <textarea id="html-text" class="section"><p id="paragraph">CodePlayer</p></textarea>
+  <textarea id="css-text" class="hidden section">p{color:red;}</textarea>
+  <textarea id="javascript-text" class="hidden section">document.getElementById("paragraph").innerHTML = "HI !";</textarea>
+  <iframe id="output-text" class="section"></iframe>
+</div>
+<!--text-container-->
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
